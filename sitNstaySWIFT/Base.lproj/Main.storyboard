@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,13 +15,77 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hound" translatesAutoresizingMaskIntoConstraints="NO" id="Z1N-qx-BKF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9x-B3-WGY">
+                                <rect key="frame" x="16" y="20" width="46" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="94k-D7-DrK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sitNstayText" translatesAutoresizingMaskIntoConstraints="NO" id="5Ot-kr-bw3">
+                                <rect key="frame" x="67" y="72" width="240" height="269"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="QEc-sr-ln5"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgg-dc-8ZP">
+                                <rect key="frame" x="112" y="395" width="150" height="30"/>
+                                <color key="backgroundColor" red="0.23699774979999999" green="0.52403868389999997" blue="0.80496018759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="hJ5-Ct-o0b"/>
+                                    <constraint firstAttribute="height" constant="30" id="uhY-ya-fHk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="15"/>
+                                <state key="normal" title="Sign Up With Facebook">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4z-79-Bjf">
+                                <rect key="frame" x="112" y="433" width="150" height="30"/>
+                                <color key="backgroundColor" red="0.13725490196078433" green="0.6588235294117647" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="15"/>
+                                <state key="normal" title="Sign Up with Email">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v4z-79-Bjf" firstAttribute="leading" secondItem="Rgg-dc-8ZP" secondAttribute="leading" id="9MJ-Lu-gPR"/>
+                            <constraint firstItem="Rgg-dc-8ZP" firstAttribute="centerX" secondItem="Z1N-qx-BKF" secondAttribute="centerX" id="Ahf-iz-Czj"/>
+                            <constraint firstItem="L9x-B3-WGY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Bop-Pv-Cwr"/>
+                            <constraint firstItem="v4z-79-Bjf" firstAttribute="top" secondItem="Rgg-dc-8ZP" secondAttribute="bottom" constant="8" symbolic="YES" id="CtA-Ta-z8a"/>
+                            <constraint firstItem="Z1N-qx-BKF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="H7L-jN-pSh"/>
+                            <constraint firstItem="L9x-B3-WGY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="J5M-kd-IjY"/>
+                            <constraint firstItem="Z1N-qx-BKF" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Rr9-Qc-jUl"/>
+                            <constraint firstItem="Z1N-qx-BKF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WFi-7I-TR8"/>
+                            <constraint firstItem="v4z-79-Bjf" firstAttribute="trailing" secondItem="Rgg-dc-8ZP" secondAttribute="trailing" id="aIy-ix-fyb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="L9x-B3-WGY" secondAttribute="bottom" constant="550" id="gCO-Qu-h0W"/>
+                            <constraint firstItem="5Ot-kr-bw3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="nyB-RF-Cgw"/>
+                            <constraint firstItem="Rgg-dc-8ZP" firstAttribute="top" secondItem="5Ot-kr-bw3" secondAttribute="bottom" constant="54" id="qBC-mV-Jz4"/>
+                            <constraint firstAttribute="bottom" secondItem="Rgg-dc-8ZP" secondAttribute="bottom" constant="242" id="tEl-RD-hRE"/>
+                            <constraint firstItem="5Ot-kr-bw3" firstAttribute="centerX" secondItem="Rgg-dc-8ZP" secondAttribute="centerX" id="tjk-4Z-zL8"/>
+                            <constraint firstAttribute="trailing" secondItem="Z1N-qx-BKF" secondAttribute="trailing" id="uEp-kz-Dj3"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="337"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hound" width="540" height="807"/>
+        <image name="sitNstayText" width="901" height="887"/>
+    </resources>
 </document>

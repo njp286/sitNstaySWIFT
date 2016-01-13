@@ -15,6 +15,7 @@
 		7DDCC3B41C30A7E3004881B4 /* sitNstaySWIFTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCC3B31C30A7E3004881B4 /* sitNstaySWIFTTests.swift */; };
 		7DDCC3BF1C30A7E4004881B4 /* sitNstaySWIFTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCC3BE1C30A7E4004881B4 /* sitNstaySWIFTUITests.swift */; };
 		7DDCC3CD1C30A927004881B4 /* hound.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDCC3CC1C30A927004881B4 /* hound.png */; };
+		7DDCC3CF1C30AA15004881B4 /* sitNstayText.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DDCC3CE1C30AA15004881B4 /* sitNstayText.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7DDCC3BE1C30A7E4004881B4 /* sitNstaySWIFTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sitNstaySWIFTUITests.swift; sourceTree = "<group>"; };
 		7DDCC3C01C30A7E4004881B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DDCC3CC1C30A927004881B4 /* hound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hound.png; sourceTree = "<group>"; };
+		7DDCC3CE1C30AA15004881B4 /* sitNstayText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sitNstayText.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7DDCC3A71C30A7E3004881B4 /* LaunchScreen.storyboard */,
 				7DDCC3AA1C30A7E3004881B4 /* Info.plist */,
 				7DDCC3CC1C30A927004881B4 /* hound.png */,
+				7DDCC3CE1C30AA15004881B4 /* sitNstayText.png */,
 			);
 			path = sitNstaySWIFT;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				7DDCC3A91C30A7E3004881B4 /* LaunchScreen.storyboard in Resources */,
 				7DDCC3A61C30A7E3004881B4 /* Assets.xcassets in Resources */,
+				7DDCC3CF1C30AA15004881B4 /* sitNstayText.png in Resources */,
 				7DDCC3CD1C30A927004881B4 /* hound.png in Resources */,
 				7DDCC3A41C30A7E3004881B4 /* Main.storyboard in Resources */,
 			);
