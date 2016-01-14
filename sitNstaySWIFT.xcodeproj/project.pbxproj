@@ -408,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = sitNstaySWIFT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Appsolutely.sitNstaySWIFT;
@@ -419,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = sitNstaySWIFT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Appsolutely.sitNstaySWIFT;
@@ -493,6 +495,7 @@
 				7DDCC3C51C30A7E4004881B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DDCC3C61C30A7E4004881B4 /* Build configuration list for PBXNativeTarget "sitNstaySWIFTTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +504,7 @@
 				7DDCC3C81C30A7E4004881B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DDCC3C91C30A7E4004881B4 /* Build configuration list for PBXNativeTarget "sitNstaySWIFTUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +513,7 @@
 				7DDCC3CB1C30A7E4004881B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
